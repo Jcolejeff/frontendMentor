@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [link](mylink)
-- Live Site URL: [link](my link)
+- Live Site URL: [link](mylink)
 
 ### Built with
 
