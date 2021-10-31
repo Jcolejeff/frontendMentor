@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [link](mylink)
-- Live Site URL: [link](mylink)
+- Live Site URL: [link](https://jcolejeff.github.io/frontendMentor/orderSummary/)
 
 ### Built with
 
