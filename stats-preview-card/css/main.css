@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+/* main backgroud */
+/* card background */
+/* accent */
+/* main heading , stats */
+/* main paragraph*/
+/* stat headings */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: Lexend Deca;
+  background-color: #090b1a;
+}
+
+.container {
+  width: 60vw;
+  margin: 0 auto;
+  height: 99vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  background-color: #1b1938;
+  border-radius: 0.5rem;
+}
+
+.desc {
+  margin-top: 5rem;
+}
+
+.desc .desc_heading {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-left: 3rem;
+}
+
+.desc .highlight {
+  color: rgba(170, 92, 219, 0.4);
+}
+
+.desc .desc_p {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-left: 3rem;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 1.5rem 0rem;
+}
+
+.desc .stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.desc .stat_number {
+  font-size: 1.5rem;
+}
+
+.desc .stat_label {
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+
+.img {
+  background: rgba(170, 92, 219, 0.4);
+  -webkit-filter: contrast(120%);
+          filter: contrast(120%);
+  opacity: 1;
+}
+
+.img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.4rem;
+  opacity: 0.4;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution .attribution a {
+  color: #3e52a3;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .img {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .stats {
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .stat {
+    padding: 0.4rem 0rem;
+  }
+  .desc {
+    margin-top: 3rem;
+  }
+  .desc .desc_heading {
+    margin-left: 1rem;
+  }
+  .desc .desc_p {
+    margin-left: 1rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
