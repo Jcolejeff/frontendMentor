@@ -21,7 +21,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: colum;
   background-image: url("../images/pattern-background-desktop.svg");
   background-repeat: no-repeat, repeat;
   background-size: contain;
