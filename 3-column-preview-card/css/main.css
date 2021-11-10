@@ -75,7 +75,7 @@ button:hover {
 }
 
 .choice {
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-left: 2rem;
 }
 
@@ -137,6 +137,9 @@ button:hover {
   .card {
     height: 60vh;
     width: 20vw;
+  }
+  button {
+    margin-top: 2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
