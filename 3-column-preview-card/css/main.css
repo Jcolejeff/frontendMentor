@@ -1,0 +1,142 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 80vw;
+  height: 60%;
+  margin: 3rem auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 1.8rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  opacity: 0.7;
+  padding: 0.5rem 0rem;
+  font-family: "Lexend Deca", sans-serif;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+button {
+  padding: 1rem;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0px 0px 0px transparent;
+          box-shadow: 0px 0px 0px transparent;
+  border: 2px solid #ffffff;
+  text-shadow: 0px 0px 0px transparent;
+  margin-left: 2rem;
+  margin-top: 4rem;
+}
+
+button:hover {
+  border-radius: 2rem;
+  cursor: pointer;
+  color: #ffffff;
+  background: transparent;
+}
+
+.choice {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.card {
+  height: 60vh;
+  width: 100%;
+}
+
+.card1 {
+  background: #e38826;
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+
+.card1 button {
+  color: #e38826;
+}
+
+.card2 {
+  background: #006970;
+}
+
+.card2 button {
+  color: #006970;
+}
+
+.card3 {
+  background: #004241;
+  border-radius: 0 0 0.4rem 0.4rem;
+}
+
+.card3 button {
+  color: #004241;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media only Screen and (min-width: 50rem) {
+  .content {
+    display: -ms-grid;
+    display: grid;
+    height: 95vh;
+    width: 600px;
+    margin: auto auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+  .card {
+    height: 60vh;
+    width: 20vw;
+  }
+}
+/*# sourceMappingURL=main.css.map */
